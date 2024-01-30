@@ -4,7 +4,7 @@ First version [WIP]
 
 Add trait to your Model and add the an array with the search fields as variable.
 
-```
+```php
 protected $searchable = [
     'title',
     'author',
@@ -15,7 +15,7 @@ protected $searchable = [
 ```
 
 Example use in Constoller:
-```
+```php
 $books_query = Book::query();
 
 // if there is searched
